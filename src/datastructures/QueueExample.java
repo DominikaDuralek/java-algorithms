@@ -1,8 +1,8 @@
 package datastructures;
 
-public class Stack {
+public class QueueExample {
     public static void main(String[] args){
-        System.out.println("Stack");
+        System.out.println("Queue");
         System.out.println("Testing");
     }
 }
