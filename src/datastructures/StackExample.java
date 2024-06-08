@@ -17,7 +17,7 @@ public class StackExample {
         // - backtracking algorithms (maze, file directories)
         // - calling functions (call stack)
 
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
 
         // Currently the stack is empty
         System.out.println("\nStack empty: " + stack.empty());

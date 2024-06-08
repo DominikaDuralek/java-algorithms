@@ -11,9 +11,14 @@ public class LinkedListExample {
         // - it doesn't have an index
         // - each node knows where the next node resides
         // - the tail item of the linked list contains an address of 'null'
-        // - bad at searching the items
+        // - bad at searching the items (O(n))
         // - good at adding or deleting nodes
         // - a doubly linked list contains the prev and next address
+
+        // Example uses?
+        // - implementing Stacks/Queues
+        // - GPS navigation
+        // - music playlist
 
         // This is a doubly linked list by default
         System.out.println("\nCreating a linked list");

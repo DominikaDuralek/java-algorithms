@@ -1,0 +1,36 @@
+*** Big O notation ***
+"How code slows as data grows."
+1. Describes the performance of an algorithm as the amount of data increases
+2. Machine independent (# of steps to completion)
+3. Ignore smaller operations O(n + 1) -> O(n)
+
+Examples of big O notation: O(1), O(n), O(log n), O(n^2)
+n = amount of data (a variable)
+
+Different runtime complexities can be represented by a graph, where
+- y-axis is time (steps) - increase on the y-axis means more time spent
+- x-axis is data (n) - increase on the x-axis means more data provided
+
+O(1) = constant time - amount of data doesn't affect the number of steps
+    - random access of an element in an array
+    - inserting at the beginning of a LinkedList
+
+O(log n) = logarithmic time
+    - binary search
+
+O(n) = linear time - example: summing a bunch of numbers
+    - looping through elements in an array
+    - searching through a LinkedList
+
+O(n log n) = quasilinear time
+    - quick sort
+    - merge sort
+    - heap sort
+
+O(n^2) = quadratic time
+    - insertion sort
+    - selection sort
+    - bubble sort
+
+O(n!) = factorial time
+    - travelling salesman problem
