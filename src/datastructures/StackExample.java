@@ -31,6 +31,7 @@ public class StackExample {
         System.out.println("\nAdded items: item1, item2, item3, item4");
         System.out.println("Stack empty: " + stack.empty());
         System.out.println("Current stack: " + stack);
+        System.out.println("Size of the stack: " + stack.size());
 
         // Removing items from the stack
         System.out.println("\nRemoving item4");
