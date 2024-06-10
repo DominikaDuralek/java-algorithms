@@ -30,11 +30,18 @@ public class GraphExample {
         graph.addEdge(4, 0);
         graph.addEdge(4, 2);
 
-        graph.print();
+        System.out.println("\nAdjacency matrix:");
+        graph.printMatrix();
 
         // Check if there's an edge
         int node1 = 0;
         int node2 = 1;
-        System.out.println("\nEdge between node " + node1 + " and " + node2 + ": " + graph.checkEdge(node1, node2));
+        System.out.println("\nEdge between node " + node1 + " and " + node2 + ": " + graph.checkEdgeMatrix(node1, node2));
+
+        // Adjacency list - an array of linked lists
+        // - each linked list has a unique node at the head
+        // - all adjacent neighbors to that node are added to that node's linked list
+        System.out.println("\nAdjacency list:");
+        graph.printList();
     }
 }

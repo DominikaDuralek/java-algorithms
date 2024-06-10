@@ -9,7 +9,7 @@ public class HashTableExample {
         // Hash table - a collection of key value pairs
         // - each pair is known as an entry
         // - hash table stores entries after using a key.hashCode() method on them
-        // - key % capacity = where it's placed on the hash table (index)
+        // - hashcode = where it's placed on the hash table (index)
         // - if multiple entries are stored in the same place, they become a linked list
         // -> this is called a bucket
         // - hash table's size is dynamic
